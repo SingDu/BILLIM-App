@@ -93,11 +93,11 @@ fun HomeScreen(
         modifier = Modifier
             .fillMaxSize()
             .background(
-                Brush.verticalGradient(
+                brush = Brush.verticalGradient(
                     listOf(
-                        Color(0xFFF6FFFB),
                         Color.White,
-                        Color(0xFFF6FFFB)
+                        Color.White,
+                        Color.White
                     )
                 )
             )
@@ -183,7 +183,8 @@ private fun Header(
             Spacer(Modifier.width(8.dp))
             Text(
                 text = "BILLM",
-                color = BrandGreen,            // 시그니처 컬러
+                color = BrandGreen,
+                fontSize = 24.sp,
                 style = MaterialTheme.typography.titleLarge.copy(fontWeight = FontWeight.ExtraBold)
             )
         }

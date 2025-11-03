@@ -30,9 +30,9 @@ data class BottomItem(
 
 private val bottomItems = listOf(
     BottomItem(Screen.Home.route, "홈", Icons.Filled.Home),
-    BottomItem(Screen.Map.route, "지도", Icons.Filled.Place),
+    BottomItem(Screen.Map.route, "동네지도", Icons.Filled.Place),
     BottomItem(Screen.Post.route, "글쓰기", Icons.Filled.Add, isCenter = true),
-    BottomItem(Screen.Message.route, "메시지", Icons.Filled.Chat),
+    BottomItem(Screen.Message.route, "채팅", Icons.Filled.Chat),
     BottomItem(Screen.My.route, "MY", Icons.Filled.Person)
 )
 
